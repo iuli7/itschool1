@@ -1,5 +1,6 @@
 package challenges;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class Student {
@@ -16,6 +17,9 @@ public class Student {
         student.add("Denis");
 
         graduateStudent.addAll(student);
-        System.out.println(graduateStudent);
+
+        for(int i=0;i<graduateStudent.size();i++){
+            System.out.println(graduateStudent.get(i));
+        }
     }
 }
