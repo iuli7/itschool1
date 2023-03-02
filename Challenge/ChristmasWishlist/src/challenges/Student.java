@@ -15,7 +15,6 @@ public class Student {
         student.add("Tudor");
         student.add("Radu");
         student.add("Denis");
-
         graduateStudent.addAll(student);
 
         for(int i=0;i<graduateStudent.size();i++){
